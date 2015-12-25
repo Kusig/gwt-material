@@ -20,8 +20,12 @@ package gwt.material.design.client.constants;
  * #L%
  */
 
+
 import gwt.material.design.client.base.helper.EnumHelper;
 
+/**
+ * Created by Mark Kevin on 11/25/2015.
+ */
 public enum AutocompleteType implements CssType {
     CHIP("autocomplete-chip"),
     TEXT("autocomplete-text");

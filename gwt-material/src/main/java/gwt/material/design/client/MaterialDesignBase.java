@@ -28,9 +28,7 @@ public class MaterialDesignBase {
 
     public void load() {
         inject(MaterialResources.INSTANCE.materializeJs());
-        inject(MaterialResources.INSTANCE.timepickerJs());
         inject(MaterialResources.INSTANCE.animationJs());
-        inject(MaterialResources.INSTANCE.scriptJs());
     }
 
     protected void inject(TextResource resource) {
